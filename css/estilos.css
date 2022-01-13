@@ -1,40 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-}
-.jumbotron{height: 150px;}
-
-
-.navbar-brand{
-    background-color: brown;
-}
-.navbar-brand img{
-    height: 100px;
+@import url("https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
 
-main img{
-    background-position: cover 
+.jumbotron {
+  height: 150px;
 }
-.carousel-item{width: auto;height: 400px;}
-.sec{
-    height: auto;
-	width: auto;
-	left: 50%;
-	top: 50%;
+
+.navbar-brand {
+  background-color: brown;
 }
+.navbar-brand img {
+  height: 150px;
+}
+
+main img {
+  background-position: cover;
+}
+
+.carousel-item {
+  width: auto;
+  height: 400px;
+}
+
+.sec {
+  height: auto;
+  width: auto;
+  padding-left: 40%;
+  left: 50%;
+  top: 50%;
+}
+
 .carousel-caption {
-text-shadow:  20px black; 
-    color: white;
-}   
-.carousel-inner img{width: 100%;height: 100%;background-image: cover;}
-footer{
-    padding: 15px
+  text-shadow: 20px black;
+  color: white;
 }
-.icono{
-    height: 30px;
-    align-content: center;
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  background-image: cover;
 }
+
+footer {
+  padding: 15px;
+}
+
+.icono {
+  height: 30px;
+  align-content: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */
