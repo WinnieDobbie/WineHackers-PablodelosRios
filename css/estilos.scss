@@ -14,7 +14,7 @@ $ColorWine: brown;
 .navbar-brand{
     background-color: $ColorWine;
         img{
-            height: 150px;
+            @extend .jumbotron
         }
 }
 //fin de anidacion sass-style y variable sass
@@ -41,4 +41,20 @@ footer{
 .icono{
     height: 30px;
     align-content: center;
+}
+
+$productos: (
+    producto1: pink,
+    producto2: red,
+    producto3: orange,
+    producto4: blue,
+    producto5: black,    
+    producto6: yellow,
+    );
+
+
+@each $producto, $color in $productos {
+    .#{$producto} {
+        color: $color
+    }
 }
