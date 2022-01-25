@@ -43,18 +43,18 @@ footer{
     align-content: center;
 }
 
-$productos: (
-    producto1: pink,
-    producto2: red,
-    producto3: orange,
-    producto4: blue,
-    producto5: black,    
-    producto6: yellow,
+$productos: map-merge (
+    ( 
+    "producto1": pink,
+    "producto2": red,
+    "producto3": orange,
+    "producto4": blue,
+    "producto5": black,    
+    "producto6": yellow,
+    ),
+    $productos
     );
 
-
-@each $producto, $color in $productos {
-    .#{$producto} {
-        color: $color
-    }
-}
+.producto1 {
+    background-color: map-get($productos, producto1);
+};

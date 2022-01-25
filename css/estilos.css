@@ -6,15 +6,12 @@
   padding: 0;
 }
 
-.jumbotron {
+.jumbotron, .navbar-brand img {
   height: 150px;
 }
 
 .navbar-brand {
   background-color: brown;
-}
-.navbar-brand img {
-  height: 150px;
 }
 
 main img {
@@ -51,7 +48,31 @@ footer {
 
 .icono {
   height: 30px;
-  align-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
+.producto1 {
+  color: pink;
+}
+
+.producto2 {
+  color: red;
+}
+
+.producto3 {
+  color: orange;
+}
+
+.producto4 {
+  color: blue;
+}
+
+.producto5 {
+  color: black;
+}
+
+.producto6 {
+  color: yellow;
+}
 /*# sourceMappingURL=estilos.css.map */
