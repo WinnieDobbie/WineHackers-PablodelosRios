@@ -10,14 +10,14 @@ $ColorWine: brown;
 
 .jumbotron{height: 150px;}
 
-//aplicando sass nesting y variable-sass
+
 .navbar-brand{
     background-color: $ColorWine;
         img{
             @extend .jumbotron
         }
 }
-//fin de anidacion sass-style y variable sass
+
 
 main img{
     background-position: cover 
